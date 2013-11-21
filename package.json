@@ -1,0 +1,9 @@
+{
+  "name": "crypto-xp-prototype",
+  "version": "0.1.0",
+  "description": "Experimental cryptocurrency prototype",
+  "main": "index.js",
+  "dependencies": {
+    "crypto": "0.0.3"
+  }
+}
