@@ -8,3 +8,4 @@ function createWallet() {
 }
 
 module.exports = { createWallet };
+// Updated on 2013-11-22
