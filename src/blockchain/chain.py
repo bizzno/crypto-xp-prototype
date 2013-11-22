@@ -29,3 +29,4 @@ class Blockchain:
         block_string = json.dumps(block, sort_keys=True).encode()
         return hashlib.sha256(block_string).hexdigest()
 Update 6 on 2013-11-20 02:25:57
+Update 9 on 2013-11-22 11:50:25
