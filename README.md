@@ -7,3 +7,4 @@ Experimental cryptocurrency implementation in Node.js.
 - Transaction handling
 - Simple blockchain structure
 // Updated on 2013-11-22
+// Updated on 2013-11-23
