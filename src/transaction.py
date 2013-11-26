@@ -1,0 +1,15 @@
+"""Transaction handling for cryptocurrency"""
+
+class Transaction:
+    def __init__(self, sender, recipient, amount):
+        self.sender = sender
+        self.recipient = recipient
+        self.amount = amount
+
+    def to_dict(self):
+        return {
+            'sender': self.sender,
+            'recipient': self.recipient,
+            'amount': self.amount
+        }
+Update 10 on 2013-11-26 21:17:17
