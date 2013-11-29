@@ -9,3 +9,4 @@ Experimental cryptocurrency implementation in Node.js.
 // Updated on 2013-11-22
 // Updated on 2013-11-23
 // Updated on 2013-11-27
+// Updated on 2013-11-29
