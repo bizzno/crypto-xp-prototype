@@ -103,3 +103,4 @@ Experimental cryptocurrency implementation in Node.js.
 // Updated on 2014-04-15
 // Updated on 2014-04-17
 // Updated on 2014-05-06
+// Updated on 2014-05-07
