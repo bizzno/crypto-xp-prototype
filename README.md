@@ -1,99 +1,60 @@
 # Crypto XP Prototype
 
 Experimental cryptocurrency prototype with blockchain and wallet functionality.
-Update 0 on 2013-11-20 14:15:47
-Update 2 on 2013-11-20 06:10:56
-Update 8 on 2013-11-22 04:04:22
-Update 12 on 2013-11-26 16:09:57
-Update 17 on 2013-11-28 05:31:45
-Update 20 on 2013-11-28 10:20:23
-Update 22 on 2013-12-01 18:35:40
-Update 23 on 2013-12-01 23:37:28
-Update 33 on 2013-12-05 19:36:23
-Update 43 on 2013-12-09 06:52:14
-Update 59 on 2013-12-18 11:49:09
-Update 65 on 2013-12-18 01:13:26
-Update 70 on 2013-12-19 09:49:41
-Update 80 on 2013-12-21 06:56:59
-Update 81 on 2013-12-21 00:12:54
-Update 84 on 2013-12-21 22:38:08
-Update 95 on 2013-12-23 14:34:35
-Update 101 on 2013-12-26 15:41:04
-Update 103 on 2013-12-26 22:56:17
-Update 107 on 2013-12-27 20:36:13
-Update 111 on 2013-12-28 05:10:35
-Update 124 on 2014-01-01 01:14:52
-Update 131 on 2014-01-04 20:29:02
-Update 135 on 2014-01-06 14:55:45
-Update 136 on 2014-01-06 04:24:43
-Update 143 on 2014-01-07 05:35:58
-Update 149 on 2014-01-07 21:51:52
-Update 153 on 2014-01-07 08:31:57
-Update 163 on 2014-01-13 19:28:19
-Update 164 on 2014-01-13 02:59:07
-Update 170 on 2014-01-17 03:44:15
-Update 171 on 2014-01-17 06:29:29
-Update 179 on 2014-01-18 21:52:06
-Update 180 on 2014-01-18 02:18:51
-Update 182 on 2014-01-18 18:51:31
-Update 194 on 2014-01-25 05:08:11
-Update 197 on 2014-01-29 09:11:17
-Update 199 on 2014-01-29 20:31:47
-Update 208 on 2014-01-29 21:00:14
-Update 218 on 2014-01-31 06:49:45
-Update 220 on 2014-01-31 14:56:21
-Update 232 on 2014-02-17 22:20:09
-Update 236 on 2014-02-17 18:06:33
-Update 238 on 2014-02-18 23:53:52
-Update 239 on 2014-02-18 12:24:27
-Update 243 on 2014-02-20 18:51:20
-Update 244 on 2014-02-20 16:09:57
-Update 248 on 2014-02-20 22:42:50
-Update 253 on 2014-02-25 23:43:08
-Update 257 on 2014-02-25 16:28:16
-Update 260 on 2014-02-25 19:04:54
-Update 267 on 2014-02-27 19:45:36
-Update 271 on 2014-02-27 06:09:34
-Update 272 on 2014-02-27 11:14:45
-Update 273 on 2014-02-27 03:52:00
-Update 275 on 2014-02-27 15:22:36
-Update 289 on 2014-03-11 11:10:09
-Update 295 on 2014-03-11 05:25:47
-Update 296 on 2014-03-11 16:39:59
-Update 298 on 2014-03-13 13:16:40
-Update 306 on 2014-03-13 09:09:45
-Update 312 on 2014-03-14 10:46:15
-Update 313 on 2014-03-20 12:41:19
-Update 315 on 2014-03-20 00:53:18
-Update 319 on 2014-03-20 16:05:50
-Update 325 on 2014-03-21 11:29:00
-Update 328 on 2014-03-21 18:25:14
-Update 331 on 2014-03-21 23:39:00
-Update 332 on 2014-03-21 17:00:37
-Update 336 on 2014-03-21 02:02:08
-Update 343 on 2014-03-23 23:04:44
-Update 344 on 2014-03-24 00:16:14
-Update 351 on 2014-03-26 16:55:18
-Update 360 on 2014-03-26 19:59:41
-Update 361 on 2014-03-26 05:54:05
-Update 362 on 2014-03-26 17:40:51
-Update 365 on 2014-03-28 14:32:09
-Update 368 on 2014-03-30 12:52:58
-Update 369 on 2014-03-30 21:35:17
-Update 378 on 2014-03-31 22:16:26
-Update 379 on 2014-03-31 22:16:42
-Update 384 on 2014-04-02 23:18:59
-Update 386 on 2014-04-07 17:51:11
-Update 391 on 2014-04-07 11:14:17
-Update 393 on 2014-04-07 22:48:32
-Update 400 on 2014-04-10 20:18:55
-Update 412 on 2014-04-11 20:56:59
-Update 414 on 2014-04-11 06:21:57
-Update 417 on 2014-04-11 16:13:04
-Update 421 on 2014-04-15 02:16:49
-Update 433 on 2014-04-30 10:53:17
-Update 438 on 2014-04-30 10:48:44
-Update 439 on 2014-04-30 09:42:54
-Update 450 on 2014-05-07 04:47:50
-Update 461 on 2014-05-10 04:03:53
-Update 464 on 2014-05-10 21:40:56
+
+## Features
+
+- Blockchain implementation with proof-of-work
+- Digital wallet with key management
+- Transaction creation and verification
+- Block mining and validation
+- Peer-to-peer network simulation
+- Merkle tree for transaction integrity
+- Address generation and signing
+
+## Structure
+
+```
+src/
+├── blockchain/    - Blockchain class and block validation
+├── wallet/        - Wallet class, keys, and transaction signing
+├── network/       - P2P networking and peer management
+└── mining/        - Mining algorithms and difficulty adjustment
+```
+
+## Installation
+
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+Create a blockchain and mine a block:
+```python
+from src.blockchain.chain import Blockchain
+
+blockchain = Blockchain()
+blockchain.add_transaction('Alice', 'Bob', 50)
+blockchain.mine_pending_transactions('Miner1')
+```
+
+Create a wallet:
+```python
+from src.wallet.wallet import Wallet
+
+wallet = Wallet()
+print(f"Address: {wallet.address}")
+print(f"Balance: {blockchain.get_balance(wallet.address)}")
+```
+
+## Requirements
+
+- Python 3.6 or higher
+- cryptography library
+- hashlib for hashing
+
+## License
+
+MIT
